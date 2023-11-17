@@ -52,7 +52,7 @@ const DashBoard = () => {
           investment: result.data.data.investments,
           wallet: result.data.data.wallet_balance,
           net_asset_naira: result.data.data.net_asset,
-          net_asset_dollar: result.data.data.net_asset * 987,
+          net_asset_dollar: result.data.data.net_asset / 987,
         });
         console.log(result.data.data);
       });
