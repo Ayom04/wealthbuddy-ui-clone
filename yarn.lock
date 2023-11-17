@@ -432,6 +432,11 @@
     "@nodelib/fs.scandir" "2.1.5"
     fastq "^1.6.0"
 
+"@paystack/inline-js@^2.13.0":
+  version "2.13.0"
+  resolved "https://registry.yarnpkg.com/@paystack/inline-js/-/inline-js-2.13.0.tgz#026950ede426080b1959212eaaee38ae51022c0d"
+  integrity sha512-KkHh3MTsYXBE5hSp2P3bQ1TpFQdRDuWwsxq3A1Ggfm0aMUru8uk88Lj2C67a6Ub1VRxUZnedFbbf4OcdLaW5Kg==
+
 "@remix-run/router@1.11.0":
   version "1.11.0"
   resolved "https://registry.yarnpkg.com/@remix-run/router/-/router-1.11.0.tgz#e0e45ac3fff9d8a126916f166809825537e9f955"
@@ -2077,6 +2082,11 @@ react-dom@^18.2.0:
   dependencies:
     loose-envify "^1.1.0"
     scheduler "^0.23.0"
+
+react-icons@^4.12.0:
+  version "4.12.0"
+  resolved "https://registry.yarnpkg.com/react-icons/-/react-icons-4.12.0.tgz#54806159a966961bfd5cdb26e492f4dafd6a8d78"
+  integrity sha512-IBaDuHiShdZqmfc/TwHu6+d6k2ltNCf3AszxNmjJc1KUfXdEeRJOKyNvLmAHaarhzGmTSVygNdyu8/opXv2gaw==
 
 react-is@^16.13.1:
   version "16.13.1"

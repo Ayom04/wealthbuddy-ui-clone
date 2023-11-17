@@ -4,5 +4,8 @@ const APP_LINK = {
   RESENDOTP: "/users/resend-otp",
   ADDPASSWORD: "/users/add-password",
   LOGIN: "/users/login",
+  GETPROFILE: "/users/get-profile",
+  GETBALANCE: "/wallet/get-balance",
+  COMPLETEPAYMENT: "/payments/start-payment ",
 };
 export { APP_LINK };
