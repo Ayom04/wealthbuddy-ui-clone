@@ -38,7 +38,7 @@ const Register = () => {
           <img src={Logo} alt="" />
         </div>
         <h1 className="text-2xl">Sign Up</h1>
-        <p>We'll get you set up in less than one minute</p>
+        <p>Well get you set up in less than one minute</p>
       </div>
       <form action="">
         <div className="flex flex-col gap-y-3 mt-[3rem] ">
@@ -122,12 +122,13 @@ const Register = () => {
               className="w-[35rem]  rounded-lg p-[.5rem] outline-none border border-gray-700 "
             />
           </fieldset>
-          <fieldset class="mb-5">
-            <label class="inline-flex items-center mt-3">
+          <fieldset className="mb-5">
+            <label className="inline-flex items-center mt-3">
               <input name="agreement" type="checkbox" value="true" />
-              <span class="ml-2 text-gray-700 text-sm">
+              <span className="ml-2 text-gray-700 text-sm">
                 I agree with the{" "}
                 <a
+                  rel="noreferrer"
                   href="https://wealthbuddy.ng/terms_conditions"
                   target="_blank"
                   className="text-green-500"
@@ -139,7 +140,7 @@ const Register = () => {
           </fieldset>
           <button
             type="submit"
-            class="mt-6 w-40 text-center text-white  rounded-lg bg-[#99bf38]  mx-auto py-4 border border-amber-800 "
+            className="mt-6 w-40 text-center text-white  rounded-lg bg-[#99bf38]  mx-auto py-4 border border-amber-800 "
             disabled=""
             onClick={handleSubmit}
           >
@@ -148,10 +149,10 @@ const Register = () => {
         </div>
       </form>
       <div>
-        <div class="mt-8 ">
-          <p class="text-sm text-gray-500">
+        <div className="mt-8 ">
+          <p className="text-sm text-gray-500">
             Already have an account?{" "}
-            <a class="text-wb-primary" href="/auth/login">
+            <a className="text-wb-primary" href="/auth/login">
               Sign In
             </a>
           </p>
